@@ -36,6 +36,7 @@ pieces:
 fragmentation:
   strategy: "by-piece"
 validation:
+  allow_self_validation: true
   required_validations: 1
   pass_threshold: 1
 locking:
