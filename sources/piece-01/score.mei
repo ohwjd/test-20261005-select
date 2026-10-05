@@ -25,7 +25,10 @@
             <application version="1" xml:id="lets-encode">
                <name xml:id="name-1">Let's Encode!</name>
             </application>
-         </appInfo>
+                     <application xml:id="app-mei-friend">
+               <name>mei-friend</name>
+            </application>
+</appInfo>
       </encodingDesc>
       <manifestationList xml:id="manifestationList-1">
          <manifestation xml:id="manifestation-1">
@@ -66,6 +69,14 @@
             </respStmt>
             <changeDesc>
                <p>Set up the score (P0002)</p>
+            </changeDesc>
+         </change>
+         <change n="4" isodate="2026-10-05">
+            <respStmt>
+               <persName>ohwjdev</persName>
+            </respStmt>
+            <changeDesc>
+               <p>Let's Encode: test-20261005-select task T0002 completed using mei-friend develop-1.6.0</p>
             </changeDesc>
          </change>
 </revisionDesc>
